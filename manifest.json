@@ -1,0 +1,19 @@
+{
+    "name": "Will Reminder",
+    "version": "1.0",
+    "description":"Extension to remind you of the fundamentals",
+    "manifest_version": 2,
+    "icons": {"128":"will-sentance.png"},
+    "browser_action":{
+        "default_icon":{
+            "128": "will-sentance.png"
+        },
+        "default_title":"Will Reminder",
+        "default_popup":"index.html"
+    },
+    "background": {
+        "scripts": ["script.js"],
+        "persistent": false
+    }
+  }
+  
